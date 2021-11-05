@@ -1,4 +1,6 @@
 # Sample Inventory File
+# The web servers are linux, but the db server is windows. Add additional parameters in each line to add ansible_connection, ansible_user and password.
+
 
 # Web Servers
 web_node1 ansible_host=web01.xyz.com ansible_connection=winrm ansible_user=administrator ansible_password=Win$Pass
